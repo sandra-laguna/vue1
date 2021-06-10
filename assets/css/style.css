@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+body {
+    background: white;
+    font-family: 'KoHo', sans-serif;
+}
+
+.b-intro {
+    background: linear-gradient(to bottom,#0aec98 0%,#2bcc91 100%);
+border-radius: 322px 0px 0px 380px;
+}
+
+.intro {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
