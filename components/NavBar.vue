@@ -2,9 +2,7 @@
   <nav class="bg-gray-800">
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
-        <a href="/"
-          ><img class="h-8" src="~assets/img/amd-logo-white.svg" alt="logo"
-        /></a>
+        <a href="/"><img class="h-8" src="~assets/img/amd-logo-white.svg" alt="logo" /></a>
         <div class="flex items-center">
           <div class="flex-shrink-0"></div>
           <div class="hidden md:block">
@@ -15,7 +13,6 @@
                   px-3
                   py-2
                   rounded-md
-                  text-sm
                   font-medium
                   text-white
                   bg-gray-900
@@ -32,7 +29,6 @@
                   px-3
                   py-2
                   rounded-md
-                  text-sm
                   font-medium
                   text-gray-300
                   hover:text-white
@@ -50,7 +46,6 @@
                   px-3
                   py-2
                   rounded-md
-                  text-sm
                   font-medium
                   text-gray-300
                   hover:text-white
@@ -89,12 +84,7 @@
               fill="none"
               viewBox="0 0 24 24"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
             <svg
               :class="[isOpen ? 'block' : 'hidden', 'h-6 w-6']"
@@ -102,12 +92,7 @@
               fill="none"
               viewBox="0 0 24 24"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </button>
         </div>
@@ -179,13 +164,13 @@
 export default {
   data() {
     return {
-      isOpen: false,
-    }
+      isOpen: false
+    };
   },
   methods: {
     toggle() {
-      this.isOpen = !this.isOpen
-    },
-  },
-}
+      this.isOpen = !this.isOpen;
+    }
+  }
+};
 </script>
